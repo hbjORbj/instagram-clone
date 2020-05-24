@@ -4,7 +4,7 @@ type User {
   email: String! @unique
   firstName: String! @default(value: "")
   lastName: String! @default(value: "")
-  bio: String!
+  bio: String! @default(value: "")
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
