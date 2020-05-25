@@ -6,8 +6,8 @@ Both the web and the app of Instagram have been implemented :)
 
 - [x] Create account
 - [x] Log in
+- [x] Like / Unlike a photo
 - [ ] See the feed
-- [ ] Like / Unlike a photo
 - [ ] Comment on a photo
 - [ ] See the full photo
 - [ ] Upload a photo
