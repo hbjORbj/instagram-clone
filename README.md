@@ -7,13 +7,13 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Create account
 - [x] Log in
 - [x] Like / Unlike a photo
+- [x] Comment on a photo
+- [ ] Search by user
+- [ ] Search by location
 - [ ] See the feed
-- [ ] Comment on a photo
 - [ ] See the full photo
 - [ ] Upload a photo
 - [ ] Edit / Delete a photo 
-- [ ] Search by user
-- [ ] Search by location
 - [ ] See user profile
 - [ ] Follow / Unfollow user
 - [ ] Edit my profile
