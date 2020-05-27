@@ -8,7 +8,7 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Log in
 - [x] Like / Unlike a photo
 - [x] Comment on a photo
-- [ ] Search by user
+- [x] Search by user
 - [ ] Search by location
 - [ ] See the feed
 - [ ] See the full photo

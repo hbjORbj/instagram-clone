@@ -117,3 +117,4 @@ dist
 
 generated
 prisma.yml
+src/words.js
