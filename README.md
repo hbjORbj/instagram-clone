@@ -10,10 +10,10 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Comment on a photo
 - [x] Search by user
 - [x] Search by post (by checking location or caption)
+- [x] Follow / Unfollow user
 - [ ] See the feed
 - [ ] See the full photo
 - [ ] Upload a photo
-- [ ] Edit / Delete a photo 
+- [ ] Edit / Delete a photo
 - [ ] See user profile
-- [ ] Follow / Unfollow user
 - [ ] Edit my profile
