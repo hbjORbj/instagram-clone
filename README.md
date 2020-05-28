@@ -9,7 +9,7 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Like / Unlike a photo
 - [x] Comment on a photo
 - [x] Search by user
-- [ ] Search by location
+- [ ] Search by post (by checking location or caption)
 - [ ] See the feed
 - [ ] See the full photo
 - [ ] Upload a photo
