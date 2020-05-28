@@ -11,9 +11,9 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Search by user
 - [x] Search by post (by checking location or caption)
 - [x] Follow / Unfollow user
+- [x] Edit my profile
 - [ ] See the feed
 - [ ] See the full photo
 - [ ] Upload a photo
 - [ ] Edit / Delete a photo
 - [ ] See user profile
-- [ ] Edit my profile
