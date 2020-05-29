@@ -13,8 +13,8 @@ Both the web and the app of Instagram have been implemented :)
 - [x] Follow / Unfollow user
 - [x] Edit my profile
 - [x] See user profile
-- [ ] See my profile
+- [x] See my profile
+- [x] See the full post
 - [ ] See the feed
-- [ ] See the full photo
-- [ ] Upload a photo
-- [ ] Edit / Delete a photo
+- [ ] Upload a post
+- [ ] Edit / Delete a post

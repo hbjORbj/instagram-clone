@@ -4,6 +4,7 @@ type User {
   email: String! @unique
   firstName: String! @default(value: "")
   lastName: String! @default(value: "")
+  fullName: String
   bio: String! @default(value: "")
   posts: [Post!]!
   likes: [Like!]!
@@ -12,6 +13,7 @@ type User {
   following: [User!]! @relation(name: "FollowRelation")
   rooms: [Room!]!
   loginSecret: String
+  amIFollowing: Boolean!
 }
 
 type Post {
@@ -22,6 +24,7 @@ type Post {
   user: User!
   location: String
   caption: String
+  isLiked: Boolean!
 }
 
 type Like {

@@ -1,3 +1,5 @@
+import { prisma } from "../../../../generated/prisma-client";
+
 export default {
   Mutation: {
     unfollow: async (_, args, { request, isAuthenticated }) => {
