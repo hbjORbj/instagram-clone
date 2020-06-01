@@ -1,6 +1,6 @@
-# Instagram Clone with Node, Express, React, Prisma, GraphQL, Apollo
+# Instagram Clone 
 
-Both the web and the app of Instagram have been implemented :)
+> Built with Node, Express, React, Prisma, GraphQL, Apollo
 
 ## User Stories
 
@@ -15,6 +15,10 @@ Both the web and the app of Instagram have been implemented :)
 - [x] See user profile
 - [x] See my profile
 - [x] See the full post
-- [ ] See the feed
-- [ ] Upload a post
+- [x] Upload a post
 - [ ] Edit / Delete a post
+- [ ] See the feed
+- [ ] See message rooms
+- [ ] See a specific message room
+- [ ] Send direct message (real-time)
+- [ ] Receive message (real-time)
