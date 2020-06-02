@@ -1,0 +1,3 @@
+type Mutation {
+  sendMessage(text: String!, roomId: String, toId: String): Message!
+}
