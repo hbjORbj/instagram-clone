@@ -1,14 +1,15 @@
 type User {
   id: ID!
+  avatar: String
   username: String!
   email: String!
   firstName: String!
   lastName: String!
   fullName: String!
   bio: String!
-  posts: [Post!]! 
-  likes: [Like!]! 
-  comments: [Comment!]! 
+  posts: [Post!]!
+  likes: [Like!]!
+  comments: [Comment!]!
   followers: [User!]!
   following: [User!]!
   rooms: [Room!]!
@@ -21,10 +22,10 @@ type User {
 
 type Post {
   id: ID!
-  files: [File!]! 
-  likes: [Like!]! 
-  comments: [Comment!]! 
-  user: User! 
+  files: [File!]!
+  likes: [Like!]!
+  comments: [Comment!]!
+  user: User!
   likeCount: Int!
   isLiked: Boolean!
   location: String
@@ -35,8 +36,8 @@ type Post {
 
 type Like {
   id: ID!
-  user: User! 
-  post: Post! 
+  user: User!
+  post: Post!
   createdAt: String
   updatedAt: String
 }
@@ -44,8 +45,8 @@ type Like {
 type Comment {
   id: ID!
   text: String!
-  user: User! 
-  post: Post! 
+  user: User!
+  post: Post!
   createdAt: String
   updatedAt: String
 }
@@ -53,7 +54,7 @@ type Comment {
 type File {
   id: ID!
   url: String!
-  post: Post! 
+  post: Post!
   createdAt: String
   updatedAt: String
 }

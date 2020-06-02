@@ -20,5 +20,5 @@
 - [x] See the feed
 - [x] See message rooms
 - [x] Send direct message 
-- [ ] See a specific message room
+- [x] See a specific message room
 - [ ] Receive message (real-time)
