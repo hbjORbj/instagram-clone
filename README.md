@@ -17,7 +17,7 @@
 - [x] See the full post
 - [x] Upload a post
 - [x] Edit / Delete a post
-- [ ] See the feed
+- [x] See the feed
 - [ ] See message rooms
 - [ ] See a specific message room
 - [ ] Send direct message (real-time)
