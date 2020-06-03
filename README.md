@@ -21,4 +21,4 @@
 - [x] See message rooms
 - [x] Send direct message 
 - [x] See a specific message room
-- [ ] Receive message (real-time)
+- [x] Receive message (real-time)
