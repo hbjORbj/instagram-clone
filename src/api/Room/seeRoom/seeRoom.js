@@ -7,12 +7,12 @@ export default {
       isAuthenticated(request);
       const { id } = args;
       const { user } = request;
-      const canSee = await prisma.$exists.room({
+      const myPresence = await prisma.$exists.room({
         participants_some: {
           id: user.id,
         },
       });
-      if (canSee) {
+      if (myPresence) {
         return prisma.room({ id }).$fragment(ROOM_FRAGMENT);
       } else {
         throw Error("You can't enter this room.");
