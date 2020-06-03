@@ -11,7 +11,9 @@ type User {
   likes: [Like!]!
   comments: [Comment!]!
   followers: [User!]!
+  followersCount: Int!
   following: [User!]!
+  followingCount: Int!
   rooms: [Room!]!
   loginSecret: String
   amIFollowing: Boolean!
@@ -73,13 +75,6 @@ type Message {
   from: User!
   to: User!
   room: Room!
-  createdAt: String
-  updatedAt: String
-}
-
-type UserProfile {
-  user: User!
-  posts: [Post!]!
   createdAt: String
   updatedAt: String
 }
