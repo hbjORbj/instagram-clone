@@ -35,5 +35,16 @@ export default {
         .aggregate()
         .count();
     },
+    commentCount: (parent) => {
+      const { id } = parent;
+      return prisma
+        .commentsConnection({
+          where: {
+            post: { id },
+          },
+        })
+        .aggregate()
+        .count();
+    },
   },
 };

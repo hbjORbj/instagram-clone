@@ -4,6 +4,19 @@ export default {
   User: {
     likes: (parent) => prisma.user({ id: parent.id }).likes(),
     posts: (parent) => prisma.user({ id: parent.id }).posts(),
+    postsCount: (parent) => {
+      const { id } = parent;
+      return prisma
+        .postsConnection({
+          where: {
+            user: {
+              id,
+            },
+          },
+        })
+        .aggregate()
+        .count();
+    },
     comments: (parent) => prisma.user({ id: parent.id }).comments(),
     rooms: (parent) => prisma.user({ id: parent.id }).rooms(),
     following: (parent) => prisma.user({ id: parent.id }).following(),

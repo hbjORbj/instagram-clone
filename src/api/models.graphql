@@ -8,6 +8,7 @@ type User {
   fullName: String!
   bio: String!
   posts: [Post!]!
+  postsCount: Int!
   likes: [Like!]!
   comments: [Comment!]!
   followers: [User!]!
@@ -29,6 +30,7 @@ type Post {
   comments: [Comment!]!
   user: User!
   likeCount: Int!
+  commentCount: Int!
   isLiked: Boolean!
   location: String
   caption: String
